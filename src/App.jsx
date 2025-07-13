@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import FormUser from './components/forms/formsUser';
+import FormUser from './components/forms/FormsUser'
 import Short_url_tool from './components/short_url_tool/Short_url_tool';
 import User_Page from './components/user_urls/User_page';
 import { useEffect, useState, useRef } from 'react';
