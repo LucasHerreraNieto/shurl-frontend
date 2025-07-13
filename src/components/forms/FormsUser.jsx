@@ -3,7 +3,7 @@ import Register_form from "./Register_form/Register_form";
 import { useState } from "react";
 import { Navigate } from "react-router-dom";
 
-const FormUser = ({ setUsuarioLogeado, setUserName, usuarioLogeado }) => {
+const FormsUser = ({ setUsuarioLogeado, setUserName, usuarioLogeado }) => {
   if(usuarioLogeado){
     return <Navigate to="/user" replace={true} />
   }
@@ -34,5 +34,5 @@ const FormUser = ({ setUsuarioLogeado, setUserName, usuarioLogeado }) => {
   );
 };
 
-export default FormUser;
+export default FormsUser;
     
