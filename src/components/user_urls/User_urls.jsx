@@ -33,7 +33,7 @@ const User_urls = ({ userName, urls, deleteUrl }) => {
                 className="text-indigo-400 font-semibold hover:underline break-words max-w-[75%]"
                 title={`${API_URL}/${url.shortUrl}`}
               >
-                localhost:3000/{url.shortUrl}
+                {`${API_URL}/${url.shortUrl}`}
               </a>
 
               {/* Dropdown */}
